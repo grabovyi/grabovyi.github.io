@@ -1,4 +1,5 @@
-@import url("fontawesome.min.css");
+/* @import url("fontawesome.min.css"); */
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
 /*
@@ -2004,9 +2005,9 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
+			/* font-family: FontAwesome; */
+			/* font-style: normal;
+			font-weight: normal; */
 			text-transform: none !important;
 		}
 
@@ -2573,7 +2574,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/laptop_v1.jpg");
+		background-image: url("images/overlay.png"), url("../../images/laptop_v12K.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
