@@ -264,7 +264,7 @@ foo.poptrox({
 
 jquery.poptrox.js is released under the MIT license.
 
-Copyright © n33
+Copyright Â© n33
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
