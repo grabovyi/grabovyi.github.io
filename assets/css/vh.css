@@ -1,0 +1,16 @@
+/* MY CSS STYLES */
+html {
+	scroll-behavior: smooth;
+  }
+
+.tab-1{
+    padding-left:10px;
+    font-style: italic;
+  }
+
+
+.more {display: none;}
+.hide-more{
+  display: none;
+  padding: 1%;
+}

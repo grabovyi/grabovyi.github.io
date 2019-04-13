@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Testing page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <script src="example.js" ></script> -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./poptrox/jquery.poptrox.min.js"></script>
+    <script>
+			$(function() {
+				
+				var foo = $('#gallery');
+				foo.poptrox({
+					usePopupCaption: true
+				});
+			
+			});
+		</script>
+</head>
+<body>
+
+<h1>poptrox</h1><a href="//www.jqueryscript.net/lightbox/Highly-Configurable-Responsive-Content-Lightbox-Plugin-For-jQuery-poptrox.html" target="blank">Website</a><a href="//github.com/n33/jquery.poptrox" target="blank">GitHub</a>
+<div id="gallery"> 
+  <!-- Regular images -->
+  <section class="work-item">
+    <!-- image 1--><a href="http://placehold.it/500/09f/fff.png"><img src="http://placehold.it/100/09f/fff.png&amp;text=image1" alt="" title="Just an image (#1)"/></a>
+    <!-- image 2--><a href="http://placehold.it/500/0bf/fff.png"><img src="http://placehold.it/100/0bf/fff.png&amp;text=image2" alt="" title="Just an image (#2)"/></a>
+    <!-- image 3--><a href="http://placehold.it/500/0df/fff.png"><img src="http://placehold.it/100/0df/fff.png&amp;text=image3" alt="" title="Just an image (#3)"/></a>
+  </section>
+  <section>
+    <!-- YouTube: Must be in share format (http://youtu.be/xxxxxxxxxxx) --><a href="http://youtu.be/loGm3vT8EAQ" data-poptrox="youtube,800x480"><img src="http://placehold.it/100/CC181E/fff.png&amp;text=youtube" alt="" title="A YouTube Video"/></a>
+    <!-- Vimeo: Must be in share format (https://vimeo.com/xxxxxxxx) --><a href="https://vimeo.com/22439234" data-poptrox="vimeo,800x480"><img src="http://placehold.it/100/69C8CE/fff.png&amp;text=vimeo" alt="" title="A Vimeo Video"/></a>
+    <!-- Soundcloud: Must be in share format (https://api.soundcloud.com/tracks/xxxxxxxx) --><a href="https://api.soundcloud.com/tracks/93549370" data-poptrox="soundcloud"><img src="http://placehold.it/100/FF5500/fff.png&amp;text=soundcloud" alt="" title="A Soundcloud Track"/></a>
+  </section>
+  <section>
+    <!-- IFRAME: Link straight to whatever page you want to open --><a href="./poptrox/demo/demo1.html" data-poptrox="iframe,600x400"><img src="http://placehold.it/100/07f/fff.png&amp;text=iframe" alt="" title="An IFRAME"/></a>
+    <!-- AJAX: Link to whatever content you want to pull in (must be on the same domain)  --><a href="#" data-poptrox="ajax,600x400"><img src="http://placehold.it/100/07f/fff.png&amp;text=ajax" alt="" title="AJAX content"/></a>
+    <!-- Ignore: Use this if you want a particular thumbnail to just link out to something --><a href="https://www.jqueryscript.net" data-poptrox="ignore"><img src="http://placehold.it/100/07f/fff.png&amp;text=ignore" alt=""/></a>
+  </section>
+</div><a class="devmount" href="http://devmount.de" target="_blank">created by<span>devmount</span></a>
+
+
+
+
+</body>
+
+</html>
+
