@@ -21,7 +21,7 @@ iframe{
 }
 
 .scroll-container {
-  overflow: scroll;
   -webkit-overflow-scrolling: touch;
+  /* overflow: scroll; */
   overflow-y: scroll;
  }
