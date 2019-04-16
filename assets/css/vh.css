@@ -19,3 +19,8 @@ iframe{
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
 }
+
+.scroll-container {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+ }
